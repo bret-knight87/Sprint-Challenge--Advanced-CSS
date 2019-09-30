@@ -6,6 +6,10 @@
     background-color: @nav-bg; 
     border-bottom: @nav-border;
 
+    @media @phone {
+        max-width: 500px;
+    }
+
     h1 {
         font-size: 5rem;
         .nav-margin;
@@ -15,6 +19,10 @@
         width: 25%;
         .displayFlex(space-around, center);
         .nav-margin;
+
+        @media @phone {
+            width: 450px;
+        }
 
         a {
             text-decoration: none;
