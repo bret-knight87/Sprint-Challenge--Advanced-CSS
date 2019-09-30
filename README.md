@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+With adaptive web design, only pre-selected information will show up for specific devices. Templates are optimized for each device. Responsive web design, on the other hand, devices are detected by media queries. One template can apply for all devices. Also, responsive web pages will move based on the size of the screen.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means your website is coded for mobile devices first, and will expand layout and features as you increase in screen space toward desktop. Also, min-width queries would be utilized. Desktop first websites are geared more towards being accessed on desktop or laptop computers first and will size down to tablet and mobile if accessed that way. Max-width queries would be utilized. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Sets font-size to 10px so that rem units can be converted easily by the power of 10.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+It’s basically a way of shorthanding your CSS. It will compile your shorthand code into the main CSS file. It is amazing and will save you a ton of time.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing would have to be parametric mixins. The power of those are amazing. I’m still a little light on escaping. I understand them as far as media queries go but I want to learn some other instances where they can be utilized. I don’t feel like I know their full potential yet.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

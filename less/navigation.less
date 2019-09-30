@@ -1,1 +1,39 @@
 // Navigation code here
+
+.nav-bar {
+    .displayFlex(center, center);
+    flex-direction: column;
+    // background-color: @nav-bg; 
+    border-bottom: @nav-border;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(246, 246, 246, 0.8);
+
+    @media @phone {
+        max-width: 500px;
+    }
+
+    h1 {
+        font-size: 5rem;
+        .nav-margin;
+    }
+
+    nav {
+        width: 25%;
+        .displayFlex(space-around, center);
+        .nav-margin;
+
+        @media @phone {
+            width: 400px;
+        }
+
+        a {
+            text-decoration: none;
+            color: @nav-font;
+            font-size: 2rem;
+        }
+
+    }
+
+}
