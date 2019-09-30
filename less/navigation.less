@@ -3,8 +3,12 @@
 .nav-bar {
     .displayFlex(center, center);
     flex-direction: column;
-    background-color: @nav-bg; 
+    // background-color: @nav-bg; 
     border-bottom: @nav-border;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(246, 246, 246, 0.8);
 
     @media @phone {
         max-width: 500px;
@@ -21,7 +25,7 @@
         .nav-margin;
 
         @media @phone {
-            width: 450px;
+            width: 400px;
         }
 
         a {
